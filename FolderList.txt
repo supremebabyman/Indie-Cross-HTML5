@@ -1,0 +1,1743 @@
+.
+|_FolderList.txt
+|_PsychEngine.js
+|_assets
+|    |_achievements
+|    |    |_images
+|    |         |_b1.png
+|    |         |_g1.png
+|    |         |_g2.png
+|    |         |_g3.png
+|    |         |_g4.png
+|    |         |_locked.png
+|    |         |_p1.png
+|    |         |_p2.png
+|    |         |_p3.png
+|    |         |_p4.png
+|    |         |_p5.png
+|    |         |_p6.png
+|    |         |_p7.png
+|    |         |_s1.png
+|    |         |_s2.png
+|    |         |_s3.png
+|    |         |_s4.png
+|    |         |_s5.png
+|    |         |_what.png
+|    |_bendy
+|    |    |_images
+|    |    |    |_BACKBACKgROUND.png
+|    |    |    |_BackgroundwhereDEEZNUTSfitINYOmOUTH.png
+|    |    |    |_Candles.png
+|    |    |    |_Candles.xml
+|    |    |    |_ChainUTS.png
+|    |    |    |_Cutouts
+|    |    |    |    |_BendyCutouts.png
+|    |    |    |    |_BendyCutouts.xml
+|    |    |    |_Damage01.png
+|    |    |    |_Damage02.png
+|    |    |    |_Damage03.png
+|    |    |    |_Damage04.png
+|    |    |    |_Ded.png
+|    |    |    |_Ded.xml
+|    |    |    |_ForegroundEEZNUTS.png
+|    |    |    |_Fyre.png
+|    |    |    |_Fyre.xml
+|    |    |    |_HorrorVision.png
+|    |    |    |_HorrorVision.xml
+|    |    |    |_MidGrounUTS.png
+|    |    |    |_NUTS.png
+|    |    |    |_SammyS.png
+|    |    |    |_dark
+|    |    |    |    |_Fuck_the_hallway_but_Dark.png
+|    |    |    |    |_Fuck_the_hallway_but_Dark.xml
+|    |    |    |    |_Trans.png
+|    |    |    |    |_Trans.xml
+|    |    |    |_first
+|    |    |    |    |_BG01.png
+|    |    |    |    |_Boi.png
+|    |    |    |    |_Light(Add-Blend).png
+|    |    |    |    |_Light(Add-Blend).xml
+|    |    |    |    |_MusicBox.png
+|    |    |    |    |_MusicBox.xml
+|    |    |    |    |_Pillar.png
+|    |    |    |_gay
+|    |    |    |    |_C_00.png
+|    |    |    |    |_C_01.png
+|    |    |    |    |_C_02.png
+|    |    |    |    |_C_03.png
+|    |    |    |    |_C_04.png
+|    |    |    |    |_C_05.png
+|    |    |    |    |_C_06_BLEND_MODE_ADD.png
+|    |    |    |    |_C_07.png
+|    |    |    |    |_Particlestuff0.png
+|    |    |    |    |_Particlestuff1.png
+|    |    |    |    |_Particlestuff2.png
+|    |    |    |_go.png
+|    |    |    |_inky depths.png
+|    |    |    |_introductionbonus.png
+|    |    |    |_introductionbonus2.png
+|    |    |    |_introductiondespair.png
+|    |    |    |_introductionsong1.png
+|    |    |    |_introductionsong2.png
+|    |    |    |_introductionsong3.png
+|    |    |    |_introductionsong4.png
+|    |    |    |_jumpscares
+|    |    |    |    |_DontmindmeImmajustwalkby.png
+|    |    |    |    |_DontmindmeImmajustwalkby.xml
+|    |    |    |    |_PiperJumpscare.png
+|    |    |    |    |_PiperJumpscare.xml
+|    |    |    |_nightmareBendy_foreground.png
+|    |    |    |_postdemise.png
+|    |    |    |_ready.png
+|    |    |    |_run
+|    |    |    |    |_Fuck_the_hallway.png
+|    |    |    |    |_Fuck_the_hallway.xml
+|    |    |    |_set.png
+|    |    |    |_stairs
+|    |    |    |    |_chainleft.png
+|    |    |    |    |_chainright.png
+|    |    |    |    |_gradient.png
+|    |    |    |    |_scrollingBG.png
+|    |    |    |    |_stairs.png
+|    |    |    |_third
+|    |    |    |    |_Butchergang_Bg.png
+|    |    |    |    |_Butchergang_Bg.xml
+|    |    |    |    |_InkRain.png
+|    |    |    |    |_InkRain.xml
+|    |    |    |    |_Ink_shit.png
+|    |    |    |    |_JzBoy.png
+|    |    |    |    |_JzBoy.xml
+|    |    |    |    |_Piper.png
+|    |    |    |    |_Piper.xml
+|    |    |    |    |_PiperDespair.png
+|    |    |    |    |_PiperDespair.xml
+|    |    |    |    |_SammyBg.png
+|    |    |    |    |_SammyBg.xml
+|    |    |    |    |_Striker.png
+|    |    |    |    |_Striker.xml
+|    |    |    |    |_StrikerDespair.png
+|    |    |    |    |_StrikerDespair.xml
+|    |    |    |_tits.png
+|    |    |_music
+|    |    |    |_fuck you.ogg
+|    |    |    |_pause.ogg
+|    |    |_sounds
+|    |         |_back.ogg
+|    |         |_boo.ogg
+|    |         |_butcherSounds
+|    |         |    |_Attack01.ogg
+|    |         |    |_Attack02.ogg
+|    |         |    |_Attack03.ogg
+|    |         |    |_Attack04.ogg
+|    |         |    |_Ded.ogg
+|    |         |    |_Hit01.ogg
+|    |         |    |_Hit02.ogg
+|    |         |    |_Hit03.ogg
+|    |         |    |_Hurt01.ogg
+|    |         |    |_Hurt02.ogg
+|    |         |_click.ogg
+|    |         |_cutout.ogg
+|    |         |_flash0.ogg
+|    |         |_flash1.ogg
+|    |         |_flash2.ogg
+|    |         |_heartbeat.ogg
+|    |         |_inked.ogg
+|    |         |_jumpscare.ogg
+|    |         |_nmbendy_jump.ogg
+|    |         |_nmbendy_land.ogg
+|    |         |_punched.ogg
+|    |         |_trolled.ogg
+|    |         |_whoosh.ogg
+|    |_compileData
+|    |    |_IndieCross-Crash.exe
+|    |    |_crash logs go here.txt
+|    |    |_dlls
+|    |    |    |_libvlc.dll
+|    |    |    |_libvlccore.dll
+|    |    |_icon128.png
+|    |    |_icon16.png
+|    |    |_icon256.png
+|    |    |_icon32.png
+|    |    |_icon512.png
+|    |    |_icon64.png
+|    |    |_icon8.png
+|    |    |_iconOG.png
+|    |    |_plugins
+|    |         |_plugins
+|    |         |    |_access
+|    |         |    |    |_libaccess_attachment_plugin.dll
+|    |         |    |    |_libaccess_bd_plugin.dll
+|    |         |    |    |_libaccess_ftp_plugin.dll
+|    |         |    |    |_libaccess_http_plugin.dll
+|    |         |    |    |_libaccess_imem_plugin.dll
+|    |         |    |    |_libaccess_mms_plugin.dll
+|    |         |    |    |_libaccess_rar_plugin.dll
+|    |         |    |    |_libaccess_realrtsp_plugin.dll
+|    |         |    |    |_libaccess_smb_plugin.dll
+|    |         |    |    |_libaccess_tcp_plugin.dll
+|    |         |    |    |_libaccess_udp_plugin.dll
+|    |         |    |    |_libaccess_vdr_plugin.dll
+|    |         |    |    |_libcdda_plugin.dll
+|    |         |    |    |_libdshow_plugin.dll
+|    |         |    |    |_libdtv_plugin.dll
+|    |         |    |    |_libdvdnav_plugin.dll
+|    |         |    |    |_libdvdread_plugin.dll
+|    |         |    |    |_libfilesystem_plugin.dll
+|    |         |    |    |_libidummy_plugin.dll
+|    |         |    |    |_liblibbluray_plugin.dll
+|    |         |    |    |_liblive555_plugin.dll
+|    |         |    |    |_librtp_plugin.dll
+|    |         |    |    |_libscreen_plugin.dll
+|    |         |    |    |_libsdp_plugin.dll
+|    |         |    |    |_libshm_plugin.dll
+|    |         |    |    |_libstream_filter_rar_plugin.dll
+|    |         |    |    |_libtimecode_plugin.dll
+|    |         |    |    |_libvcd_plugin.dll
+|    |         |    |    |_libzip_plugin.dll
+|    |         |    |_access_output
+|    |         |    |    |_libaccess_output_dummy_plugin.dll
+|    |         |    |    |_libaccess_output_file_plugin.dll
+|    |         |    |    |_libaccess_output_http_plugin.dll
+|    |         |    |    |_libaccess_output_livehttp_plugin.dll
+|    |         |    |    |_libaccess_output_shout_plugin.dll
+|    |         |    |    |_libaccess_output_udp_plugin.dll
+|    |         |    |_audio_filter
+|    |         |    |    |_liba52tofloat32_plugin.dll
+|    |         |    |    |_liba52tospdif_plugin.dll
+|    |         |    |    |_libaudio_format_plugin.dll
+|    |         |    |    |_libaudiobargraph_a_plugin.dll
+|    |         |    |    |_libchorus_flanger_plugin.dll
+|    |         |    |    |_libcompressor_plugin.dll
+|    |         |    |    |_libdolby_surround_decoder_plugin.dll
+|    |         |    |    |_libdtstofloat32_plugin.dll
+|    |         |    |    |_libdtstospdif_plugin.dll
+|    |         |    |    |_libequalizer_plugin.dll
+|    |         |    |    |_libgain_plugin.dll
+|    |         |    |    |_libheadphone_channel_mixer_plugin.dll
+|    |         |    |    |_libkaraoke_plugin.dll
+|    |         |    |    |_libmono_plugin.dll
+|    |         |    |    |_libmpgatofixed32_plugin.dll
+|    |         |    |    |_libnormvol_plugin.dll
+|    |         |    |    |_libparam_eq_plugin.dll
+|    |         |    |    |_libremap_plugin.dll
+|    |         |    |    |_libsamplerate_plugin.dll
+|    |         |    |    |_libscaletempo_plugin.dll
+|    |         |    |    |_libsimple_channel_mixer_plugin.dll
+|    |         |    |    |_libspatializer_plugin.dll
+|    |         |    |    |_libspeex_resampler_plugin.dll
+|    |         |    |    |_libstereo_widen_plugin.dll
+|    |         |    |    |_libtrivial_channel_mixer_plugin.dll
+|    |         |    |    |_libugly_resampler_plugin.dll
+|    |         |    |_audio_mixer
+|    |         |    |    |_libfloat_mixer_plugin.dll
+|    |         |    |    |_libinteger_mixer_plugin.dll
+|    |         |    |_audio_output
+|    |         |    |    |_libadummy_plugin.dll
+|    |         |    |    |_libafile_plugin.dll
+|    |         |    |    |_libamem_plugin.dll
+|    |         |    |    |_libdirectsound_plugin.dll
+|    |         |    |    |_libmmdevice_plugin.dll
+|    |         |    |    |_libwaveout_plugin.dll
+|    |         |    |_codec
+|    |         |    |    |_liba52_plugin.dll
+|    |         |    |    |_libadpcm_plugin.dll
+|    |         |    |    |_libaes3_plugin.dll
+|    |         |    |    |_libaraw_plugin.dll
+|    |         |    |    |_libavcodec_plugin.dll
+|    |         |    |    |_libcc_plugin.dll
+|    |         |    |    |_libcdg_plugin.dll
+|    |         |    |    |_libcrystalhd_plugin.dll
+|    |         |    |    |_libcvdsub_plugin.dll
+|    |         |    |    |_libddummy_plugin.dll
+|    |         |    |    |_libdmo_plugin.dll
+|    |         |    |    |_libdts_plugin.dll
+|    |         |    |    |_libdvbsub_plugin.dll
+|    |         |    |    |_libdxva2_plugin.dll
+|    |         |    |    |_libedummy_plugin.dll
+|    |         |    |    |_libfaad_plugin.dll
+|    |         |    |    |_libflac_plugin.dll
+|    |         |    |    |_libg711_plugin.dll
+|    |         |    |    |_libkate_plugin.dll
+|    |         |    |    |_liblibass_plugin.dll
+|    |         |    |    |_liblibmpeg2_plugin.dll
+|    |         |    |    |_liblpcm_plugin.dll
+|    |         |    |    |_libmpeg_audio_plugin.dll
+|    |         |    |    |_libopus_plugin.dll
+|    |         |    |    |_libpng_plugin.dll
+|    |         |    |    |_libquicktime_plugin.dll
+|    |         |    |    |_librawvideo_plugin.dll
+|    |         |    |    |_libschroedinger_plugin.dll
+|    |         |    |    |_libscte27_plugin.dll
+|    |         |    |    |_libspeex_plugin.dll
+|    |         |    |    |_libspudec_plugin.dll
+|    |         |    |    |_libstl_plugin.dll
+|    |         |    |    |_libsubsdec_plugin.dll
+|    |         |    |    |_libsubsusf_plugin.dll
+|    |         |    |    |_libsvcdsub_plugin.dll
+|    |         |    |    |_libt140_plugin.dll
+|    |         |    |    |_libtheora_plugin.dll
+|    |         |    |    |_libtwolame_plugin.dll
+|    |         |    |    |_libuleaddvaudio_plugin.dll
+|    |         |    |    |_libvorbis_plugin.dll
+|    |         |    |    |_libx264_plugin.dll
+|    |         |    |    |_libzvbi_plugin.dll
+|    |         |    |_control
+|    |         |    |    |_libdummy_plugin.dll
+|    |         |    |    |_libgestures_plugin.dll
+|    |         |    |    |_libglobalhotkeys_plugin.dll
+|    |         |    |    |_libhotkeys_plugin.dll
+|    |         |    |    |_libnetsync_plugin.dll
+|    |         |    |    |_libntservice_plugin.dll
+|    |         |    |    |_liboldrc_plugin.dll
+|    |         |    |_demux
+|    |         |    |    |_libaiff_plugin.dll
+|    |         |    |    |_libasf_plugin.dll
+|    |         |    |    |_libau_plugin.dll
+|    |         |    |    |_libavi_plugin.dll
+|    |         |    |    |_libdemux_cdg_plugin.dll
+|    |         |    |    |_libdemux_stl_plugin.dll
+|    |         |    |    |_libdemuxdump_plugin.dll
+|    |         |    |    |_libdirac_plugin.dll
+|    |         |    |    |_libes_plugin.dll
+|    |         |    |    |_libflacsys_plugin.dll
+|    |         |    |    |_libgme_plugin.dll
+|    |         |    |    |_libh264_plugin.dll
+|    |         |    |    |_libimage_plugin.dll
+|    |         |    |    |_libmjpeg_plugin.dll
+|    |         |    |    |_libmkv_plugin.dll
+|    |         |    |    |_libmod_plugin.dll
+|    |         |    |    |_libmp4_plugin.dll
+|    |         |    |    |_libmpc_plugin.dll
+|    |         |    |    |_libmpgv_plugin.dll
+|    |         |    |    |_libnsc_plugin.dll
+|    |         |    |    |_libnsv_plugin.dll
+|    |         |    |    |_libnuv_plugin.dll
+|    |         |    |    |_libogg_plugin.dll
+|    |         |    |    |_libplaylist_plugin.dll
+|    |         |    |    |_libps_plugin.dll
+|    |         |    |    |_libpva_plugin.dll
+|    |         |    |    |_librawaud_plugin.dll
+|    |         |    |    |_librawdv_plugin.dll
+|    |         |    |    |_librawvid_plugin.dll
+|    |         |    |    |_libreal_plugin.dll
+|    |         |    |    |_libsid_plugin.dll
+|    |         |    |    |_libsmf_plugin.dll
+|    |         |    |    |_libsubtitle_plugin.dll
+|    |         |    |    |_libts_plugin.dll
+|    |         |    |    |_libtta_plugin.dll
+|    |         |    |    |_libty_plugin.dll
+|    |         |    |    |_libvc1_plugin.dll
+|    |         |    |    |_libvobsub_plugin.dll
+|    |         |    |    |_libvoc_plugin.dll
+|    |         |    |    |_libwav_plugin.dll
+|    |         |    |    |_libxa_plugin.dll
+|    |         |    |_gui
+|    |         |    |    |_libqt4_plugin.dll
+|    |         |    |    |_libskins2_plugin.dll
+|    |         |    |_lua
+|    |         |    |    |_liblua_plugin.dll
+|    |         |    |_meta_engine
+|    |         |    |    |_libfolder_plugin.dll
+|    |         |    |    |_libtaglib_plugin.dll
+|    |         |    |_misc
+|    |         |    |    |_libaudioscrobbler_plugin.dll
+|    |         |    |    |_libexport_plugin.dll
+|    |         |    |    |_libfingerprinter_plugin.dll
+|    |         |    |    |_liblogger_plugin.dll
+|    |         |    |    |_libstats_plugin.dll
+|    |         |    |    |_libvod_rtsp_plugin.dll
+|    |         |    |    |_libxml_plugin.dll
+|    |         |    |_mmx
+|    |         |    |    |_libi420_rgb_mmx_plugin.dll
+|    |         |    |    |_libi420_yuy2_mmx_plugin.dll
+|    |         |    |    |_libi422_yuy2_mmx_plugin.dll
+|    |         |    |_mux
+|    |         |    |    |_libmux_asf_plugin.dll
+|    |         |    |    |_libmux_avi_plugin.dll
+|    |         |    |    |_libmux_dummy_plugin.dll
+|    |         |    |    |_libmux_mp4_plugin.dll
+|    |         |    |    |_libmux_mpjpeg_plugin.dll
+|    |         |    |    |_libmux_ogg_plugin.dll
+|    |         |    |    |_libmux_ps_plugin.dll
+|    |         |    |    |_libmux_ts_plugin.dll
+|    |         |    |    |_libmux_wav_plugin.dll
+|    |         |    |_packetizer
+|    |         |    |    |_libpacketizer_copy_plugin.dll
+|    |         |    |    |_libpacketizer_dirac_plugin.dll
+|    |         |    |    |_libpacketizer_flac_plugin.dll
+|    |         |    |    |_libpacketizer_h264_plugin.dll
+|    |         |    |    |_libpacketizer_mlp_plugin.dll
+|    |         |    |    |_libpacketizer_mpeg4audio_plugin.dll
+|    |         |    |    |_libpacketizer_mpeg4video_plugin.dll
+|    |         |    |    |_libpacketizer_mpegvideo_plugin.dll
+|    |         |    |    |_libpacketizer_vc1_plugin.dll
+|    |         |    |_plugins.dat
+|    |         |    |_services_discovery
+|    |         |    |    |_libmediadirs_plugin.dll
+|    |         |    |    |_libpodcast_plugin.dll
+|    |         |    |    |_libsap_plugin.dll
+|    |         |    |    |_libupnp_plugin.dll
+|    |         |    |    |_libwindrive_plugin.dll
+|    |         |    |_sse2
+|    |         |    |    |_libi420_rgb_sse2_plugin.dll
+|    |         |    |    |_libi420_yuy2_sse2_plugin.dll
+|    |         |    |    |_libi422_yuy2_sse2_plugin.dll
+|    |         |    |_stream_filter
+|    |         |    |    |_libdash_plugin.dll
+|    |         |    |    |_libhttplive_plugin.dll
+|    |         |    |    |_librecord_plugin.dll
+|    |         |    |    |_libsmooth_plugin.dll
+|    |         |    |_stream_out
+|    |         |    |    |_libstream_out_autodel_plugin.dll
+|    |         |    |    |_libstream_out_bridge_plugin.dll
+|    |         |    |    |_libstream_out_chromaprint_plugin.dll
+|    |         |    |    |_libstream_out_delay_plugin.dll
+|    |         |    |    |_libstream_out_description_plugin.dll
+|    |         |    |    |_libstream_out_display_plugin.dll
+|    |         |    |    |_libstream_out_dummy_plugin.dll
+|    |         |    |    |_libstream_out_duplicate_plugin.dll
+|    |         |    |    |_libstream_out_es_plugin.dll
+|    |         |    |    |_libstream_out_gather_plugin.dll
+|    |         |    |    |_libstream_out_langfromtelx_plugin.dll
+|    |         |    |    |_libstream_out_mosaic_bridge_plugin.dll
+|    |         |    |    |_libstream_out_raop_plugin.dll
+|    |         |    |    |_libstream_out_record_plugin.dll
+|    |         |    |    |_libstream_out_rtp_plugin.dll
+|    |         |    |    |_libstream_out_setid_plugin.dll
+|    |         |    |    |_libstream_out_smem_plugin.dll
+|    |         |    |    |_libstream_out_standard_plugin.dll
+|    |         |    |    |_libstream_out_transcode_plugin.dll
+|    |         |    |_text_renderer
+|    |         |    |    |_libfreetype_plugin.dll
+|    |         |    |    |_libtdummy_plugin.dll
+|    |         |    |_video_chroma
+|    |         |    |    |_libgrey_yuv_plugin.dll
+|    |         |    |    |_libi420_rgb_plugin.dll
+|    |         |    |    |_libi420_yuy2_plugin.dll
+|    |         |    |    |_libi422_i420_plugin.dll
+|    |         |    |    |_libi422_yuy2_plugin.dll
+|    |         |    |    |_librv32_plugin.dll
+|    |         |    |    |_libyuy2_i420_plugin.dll
+|    |         |    |    |_libyuy2_i422_plugin.dll
+|    |         |    |_video_filter
+|    |         |    |    |_libadjust_plugin.dll
+|    |         |    |    |_libalphamask_plugin.dll
+|    |         |    |    |_libanaglyph_plugin.dll
+|    |         |    |    |_libantiflicker_plugin.dll
+|    |         |    |    |_libatmo_plugin.dll
+|    |         |    |    |_libaudiobargraph_v_plugin.dll
+|    |         |    |    |_libball_plugin.dll
+|    |         |    |    |_libblend_plugin.dll
+|    |         |    |    |_libblendbench_plugin.dll
+|    |         |    |    |_libbluescreen_plugin.dll
+|    |         |    |    |_libcanvas_plugin.dll
+|    |         |    |    |_libchain_plugin.dll
+|    |         |    |    |_libclone_plugin.dll
+|    |         |    |    |_libcolorthres_plugin.dll
+|    |         |    |    |_libcroppadd_plugin.dll
+|    |         |    |    |_libdeinterlace_plugin.dll
+|    |         |    |    |_liberase_plugin.dll
+|    |         |    |    |_libextract_plugin.dll
+|    |         |    |    |_libgaussianblur_plugin.dll
+|    |         |    |    |_libgradfun_plugin.dll
+|    |         |    |    |_libgradient_plugin.dll
+|    |         |    |    |_libgrain_plugin.dll
+|    |         |    |    |_libhqdn3d_plugin.dll
+|    |         |    |    |_libinvert_plugin.dll
+|    |         |    |    |_liblogo_plugin.dll
+|    |         |    |    |_libmagnify_plugin.dll
+|    |         |    |    |_libmarq_plugin.dll
+|    |         |    |    |_libmirror_plugin.dll
+|    |         |    |    |_libmosaic_plugin.dll
+|    |         |    |    |_libmotionblur_plugin.dll
+|    |         |    |    |_libmotiondetect_plugin.dll
+|    |         |    |    |_libpanoramix_plugin.dll
+|    |         |    |    |_libposterize_plugin.dll
+|    |         |    |    |_libpostproc_plugin.dll
+|    |         |    |    |_libpsychedelic_plugin.dll
+|    |         |    |    |_libpuzzle_plugin.dll
+|    |         |    |    |_libremoteosd_plugin.dll
+|    |         |    |    |_libripple_plugin.dll
+|    |         |    |    |_librotate_plugin.dll
+|    |         |    |    |_librss_plugin.dll
+|    |         |    |    |_libscale_plugin.dll
+|    |         |    |    |_libscene_plugin.dll
+|    |         |    |    |_libsepia_plugin.dll
+|    |         |    |    |_libsharpen_plugin.dll
+|    |         |    |    |_libsubsdelay_plugin.dll
+|    |         |    |    |_libswscale_plugin.dll
+|    |         |    |    |_libtransform_plugin.dll
+|    |         |    |    |_libwall_plugin.dll
+|    |         |    |    |_libwave_plugin.dll
+|    |         |    |    |_libyuvp_plugin.dll
+|    |         |    |_video_output
+|    |         |    |    |_libcaca_plugin.dll
+|    |         |    |    |_libdirect2d_plugin.dll
+|    |         |    |    |_libdirect3d_plugin.dll
+|    |         |    |    |_libdirectdraw_plugin.dll
+|    |         |    |    |_libdrawable_plugin.dll
+|    |         |    |    |_libglwin32_plugin.dll
+|    |         |    |    |_libvdummy_plugin.dll
+|    |         |    |    |_libvmem_plugin.dll
+|    |         |    |    |_libwingdi_plugin.dll
+|    |         |    |    |_libyuv_plugin.dll
+|    |         |    |_visualization
+|    |         |         |_libgoom_plugin.dll
+|    |         |         |_libprojectm_plugin.dll
+|    |         |         |_libvisual_plugin.dll
+|    |         |_plugins (but for mac)
+|    |              |_liba52_plugin.dylib
+|    |              |_liba52tofloat32_plugin.dylib
+|    |              |_liba52tospdif_plugin.dylib
+|    |              |_libaccess_attachment_plugin.dylib
+|    |              |_libaccess_bd_plugin.dylib
+|    |              |_libaccess_eyetv_plugin.dylib
+|    |              |_libaccess_ftp_plugin.dylib
+|    |              |_libaccess_http_plugin.dylib
+|    |              |_libaccess_imem_plugin.dylib
+|    |              |_libaccess_mms_plugin.dylib
+|    |              |_libaccess_output_dummy_plugin.dylib
+|    |              |_libaccess_output_file_plugin.dylib
+|    |              |_libaccess_output_http_plugin.dylib
+|    |              |_libaccess_output_livehttp_plugin.dylib
+|    |              |_libaccess_output_shout_plugin.dylib
+|    |              |_libaccess_output_udp_plugin.dylib
+|    |              |_libaccess_rar_plugin.dylib
+|    |              |_libaccess_realrtsp_plugin.dylib
+|    |              |_libaccess_tcp_plugin.dylib
+|    |              |_libaccess_udp_plugin.dylib
+|    |              |_libaccess_vdr_plugin.dylib
+|    |              |_libadjust_plugin.dylib
+|    |              |_libadpcm_plugin.dylib
+|    |              |_libadummy_plugin.dylib
+|    |              |_libaes3_plugin.dylib
+|    |              |_libafile_plugin.dylib
+|    |              |_libaiff_plugin.dylib
+|    |              |_libalphamask_plugin.dylib
+|    |              |_libamem_plugin.dylib
+|    |              |_libanaglyph_plugin.dylib
+|    |              |_libantiflicker_plugin.dylib
+|    |              |_libaraw_plugin.dylib
+|    |              |_libasf_plugin.dylib
+|    |              |_libau_plugin.dylib
+|    |              |_libaudio_format_plugin.dylib
+|    |              |_libaudiobargraph_a_plugin.dylib
+|    |              |_libaudiobargraph_v_plugin.dylib
+|    |              |_libaudioscrobbler_plugin.dylib
+|    |              |_libauhal_plugin.dylib
+|    |              |_libavcapture_plugin.dylib
+|    |              |_libavcodec_plugin.dylib
+|    |              |_libavi_plugin.dylib
+|    |              |_libball_plugin.dylib
+|    |              |_libblend_plugin.dylib
+|    |              |_libblendbench_plugin.dylib
+|    |              |_libbluescreen_plugin.dylib
+|    |              |_libcanvas_plugin.dylib
+|    |              |_libcc_plugin.dylib
+|    |              |_libcdda_plugin.dylib
+|    |              |_libcdg_plugin.dylib
+|    |              |_libchain_plugin.dylib
+|    |              |_libchorus_flanger_plugin.dylib
+|    |              |_libclone_plugin.dylib
+|    |              |_libcolorthres_plugin.dylib
+|    |              |_libcompressor_plugin.dylib
+|    |              |_libcroppadd_plugin.dylib
+|    |              |_libcvdsub_plugin.dylib
+|    |              |_libdash_plugin.dylib
+|    |              |_libddummy_plugin.dylib
+|    |              |_libdecomp_plugin.dylib
+|    |              |_libdeinterlace_plugin.dylib
+|    |              |_libdemux_cdg_plugin.dylib
+|    |              |_libdemux_stl_plugin.dylib
+|    |              |_libdemuxdump_plugin.dylib
+|    |              |_libdirac_plugin.dylib
+|    |              |_libdolby_surround_decoder_plugin.dylib
+|    |              |_libdts_plugin.dylib
+|    |              |_libdtstofloat32_plugin.dylib
+|    |              |_libdtstospdif_plugin.dylib
+|    |              |_libdummy_plugin.dylib
+|    |              |_libdvbsub_plugin.dylib
+|    |              |_libdvdnav_plugin.dylib
+|    |              |_libdvdread_plugin.dylib
+|    |              |_libdynamicoverlay_plugin.dylib
+|    |              |_libedummy_plugin.dylib
+|    |              |_libequalizer_plugin.dylib
+|    |              |_liberase_plugin.dylib
+|    |              |_libes_plugin.dylib
+|    |              |_libexport_plugin.dylib
+|    |              |_libextract_plugin.dylib
+|    |              |_libfaad_plugin.dylib
+|    |              |_libfilesystem_plugin.dylib
+|    |              |_libflac_plugin.dylib
+|    |              |_libflacsys_plugin.dylib
+|    |              |_libfloat_mixer_plugin.dylib
+|    |              |_libfolder_plugin.dylib
+|    |              |_libfreetype_plugin.dylib
+|    |              |_libg711_plugin.dylib
+|    |              |_libgain_plugin.dylib
+|    |              |_libgaussianblur_plugin.dylib
+|    |              |_libgestures_plugin.dylib
+|    |              |_libgme_plugin.dylib
+|    |              |_libgnutls_plugin.dylib
+|    |              |_libgoom_plugin.dylib
+|    |              |_libgradfun_plugin.dylib
+|    |              |_libgradient_plugin.dylib
+|    |              |_libgrain_plugin.dylib
+|    |              |_libgrey_yuv_plugin.dylib
+|    |              |_libgrowl_plugin.dylib
+|    |              |_libh264_plugin.dylib
+|    |              |_libheadphone_channel_mixer_plugin.dylib
+|    |              |_libhotkeys_plugin.dylib
+|    |              |_libhqdn3d_plugin.dylib
+|    |              |_libhttplive_plugin.dylib
+|    |              |_libi420_rgb_mmx_plugin.dylib
+|    |              |_libi420_rgb_plugin.dylib
+|    |              |_libi420_rgb_sse2_plugin.dylib
+|    |              |_libi420_yuy2_mmx_plugin.dylib
+|    |              |_libi420_yuy2_plugin.dylib
+|    |              |_libi420_yuy2_sse2_plugin.dylib
+|    |              |_libi422_i420_plugin.dylib
+|    |              |_libi422_yuy2_mmx_plugin.dylib
+|    |              |_libi422_yuy2_plugin.dylib
+|    |              |_libi422_yuy2_sse2_plugin.dylib
+|    |              |_libidummy_plugin.dylib
+|    |              |_libimage_plugin.dylib
+|    |              |_libinteger_mixer_plugin.dylib
+|    |              |_libinvert_plugin.dylib
+|    |              |_libkaraoke_plugin.dylib
+|    |              |_libkate_plugin.dylib
+|    |              |_liblibass_plugin.dylib
+|    |              |_liblibbluray_plugin.dylib
+|    |              |_liblibmpeg2_plugin.dylib
+|    |              |_liblive555_plugin.dylib
+|    |              |_liblogger_plugin.dylib
+|    |              |_liblogo_plugin.dylib
+|    |              |_liblpcm_plugin.dylib
+|    |              |_liblua_plugin.dylib
+|    |              |_libmacosx_plugin.dylib
+|    |              |_libmagnify_plugin.dylib
+|    |              |_libmarq_plugin.dylib
+|    |              |_libmediadirs_plugin.dylib
+|    |              |_libmirror_plugin.dylib
+|    |              |_libmjpeg_plugin.dylib
+|    |              |_libmkv_plugin.dylib
+|    |              |_libmod_plugin.dylib
+|    |              |_libmono_plugin.dylib
+|    |              |_libmosaic_plugin.dylib
+|    |              |_libmotion_plugin.dylib
+|    |              |_libmotionblur_plugin.dylib
+|    |              |_libmotiondetect_plugin.dylib
+|    |              |_libmp4_plugin.dylib
+|    |              |_libmpc_plugin.dylib
+|    |              |_libmpeg_audio_plugin.dylib
+|    |              |_libmpgatofixed32_plugin.dylib
+|    |              |_libmpgv_plugin.dylib
+|    |              |_libmux_asf_plugin.dylib
+|    |              |_libmux_avi_plugin.dylib
+|    |              |_libmux_dummy_plugin.dylib
+|    |              |_libmux_mp4_plugin.dylib
+|    |              |_libmux_mpjpeg_plugin.dylib
+|    |              |_libmux_ogg_plugin.dylib
+|    |              |_libmux_ps_plugin.dylib
+|    |              |_libmux_ts_plugin.dylib
+|    |              |_libmux_wav_plugin.dylib
+|    |              |_libncurses_plugin.dylib
+|    |              |_libnetsync_plugin.dylib
+|    |              |_libnormvol_plugin.dylib
+|    |              |_libnsc_plugin.dylib
+|    |              |_libnsv_plugin.dylib
+|    |              |_libnuv_plugin.dylib
+|    |              |_libogg_plugin.dylib
+|    |              |_liboldrc_plugin.dylib
+|    |              |_libopus_plugin.dylib
+|    |              |_libpacketizer_copy_plugin.dylib
+|    |              |_libpacketizer_dirac_plugin.dylib
+|    |              |_libpacketizer_flac_plugin.dylib
+|    |              |_libpacketizer_h264_plugin.dylib
+|    |              |_libpacketizer_mlp_plugin.dylib
+|    |              |_libpacketizer_mpeg4audio_plugin.dylib
+|    |              |_libpacketizer_mpeg4video_plugin.dylib
+|    |              |_libpacketizer_mpegvideo_plugin.dylib
+|    |              |_libpacketizer_vc1_plugin.dylib
+|    |              |_libparam_eq_plugin.dylib
+|    |              |_libplaylist_plugin.dylib
+|    |              |_libpng_plugin.dylib
+|    |              |_libpodcast_plugin.dylib
+|    |              |_libposterize_plugin.dylib
+|    |              |_libpostproc_plugin.dylib
+|    |              |_libps_plugin.dylib
+|    |              |_libpsychedelic_plugin.dylib
+|    |              |_libpuzzle_plugin.dylib
+|    |              |_libpva_plugin.dylib
+|    |              |_libqtcapture_plugin.dylib
+|    |              |_libqtsound_plugin.dylib
+|    |              |_libquartztext_plugin.dylib
+|    |              |_librawaud_plugin.dylib
+|    |              |_librawdv_plugin.dylib
+|    |              |_librawvid_plugin.dylib
+|    |              |_librawvideo_plugin.dylib
+|    |              |_libreal_plugin.dylib
+|    |              |_librecord_plugin.dylib
+|    |              |_libremap_plugin.dylib
+|    |              |_libremoteosd_plugin.dylib
+|    |              |_libripple_plugin.dylib
+|    |              |_librotate_plugin.dylib
+|    |              |_librss_plugin.dylib
+|    |              |_librtp_plugin.dylib
+|    |              |_librv32_plugin.dylib
+|    |              |_libsap_plugin.dylib
+|    |              |_libscale_plugin.dylib
+|    |              |_libscaletempo_plugin.dylib
+|    |              |_libscene_plugin.dylib
+|    |              |_libschroedinger_plugin.dylib
+|    |              |_libscreen_plugin.dylib
+|    |              |_libscte27_plugin.dylib
+|    |              |_libsdp_plugin.dylib
+|    |              |_libsepia_plugin.dylib
+|    |              |_libsharpen_plugin.dylib
+|    |              |_libshm_plugin.dylib
+|    |              |_libsid_plugin.dylib
+|    |              |_libsimple_channel_mixer_plugin.dylib
+|    |              |_libsmf_plugin.dylib
+|    |              |_libsmooth_plugin.dylib
+|    |              |_libspatializer_plugin.dylib
+|    |              |_libspeex_plugin.dylib
+|    |              |_libspeex_resampler_plugin.dylib
+|    |              |_libspudec_plugin.dylib
+|    |              |_libstats_plugin.dylib
+|    |              |_libstereo_widen_plugin.dylib
+|    |              |_libstl_plugin.dylib
+|    |              |_libstream_filter_rar_plugin.dylib
+|    |              |_libstream_out_autodel_plugin.dylib
+|    |              |_libstream_out_bridge_plugin.dylib
+|    |              |_libstream_out_delay_plugin.dylib
+|    |              |_libstream_out_description_plugin.dylib
+|    |              |_libstream_out_display_plugin.dylib
+|    |              |_libstream_out_dummy_plugin.dylib
+|    |              |_libstream_out_duplicate_plugin.dylib
+|    |              |_libstream_out_es_plugin.dylib
+|    |              |_libstream_out_gather_plugin.dylib
+|    |              |_libstream_out_langfromtelx_plugin.dylib
+|    |              |_libstream_out_mosaic_bridge_plugin.dylib
+|    |              |_libstream_out_raop_plugin.dylib
+|    |              |_libstream_out_record_plugin.dylib
+|    |              |_libstream_out_rtp_plugin.dylib
+|    |              |_libstream_out_setid_plugin.dylib
+|    |              |_libstream_out_smem_plugin.dylib
+|    |              |_libstream_out_standard_plugin.dylib
+|    |              |_libstream_out_transcode_plugin.dylib
+|    |              |_libsubsdec_plugin.dylib
+|    |              |_libsubsdelay_plugin.dylib
+|    |              |_libsubsusf_plugin.dylib
+|    |              |_libsubtitle_plugin.dylib
+|    |              |_libsvcdsub_plugin.dylib
+|    |              |_libswscale_plugin.dylib
+|    |              |_libt140_plugin.dylib
+|    |              |_libtaglib_plugin.dylib
+|    |              |_libtdummy_plugin.dylib
+|    |              |_libtelx_plugin.dylib
+|    |              |_libtheora_plugin.dylib
+|    |              |_libtimecode_plugin.dylib
+|    |              |_libtransform_plugin.dylib
+|    |              |_libtrivial_channel_mixer_plugin.dylib
+|    |              |_libts_plugin.dylib
+|    |              |_libtta_plugin.dylib
+|    |              |_libtwolame_plugin.dylib
+|    |              |_libty_plugin.dylib
+|    |              |_libugly_resampler_plugin.dylib
+|    |              |_libuleaddvaudio_plugin.dylib
+|    |              |_libupnp_plugin.dylib
+|    |              |_libvc1_plugin.dylib
+|    |              |_libvcd_plugin.dylib
+|    |              |_libvda_plugin.dylib
+|    |              |_libvdummy_plugin.dylib
+|    |              |_libvisual_plugin.dylib
+|    |              |_libvmem_plugin.dylib
+|    |              |_libvobsub_plugin.dylib
+|    |              |_libvoc_plugin.dylib
+|    |              |_libvod_rtsp_plugin.dylib
+|    |              |_libvorbis_plugin.dylib
+|    |              |_libvout_macosx_plugin.dylib
+|    |              |_libwall_plugin.dylib
+|    |              |_libwav_plugin.dylib
+|    |              |_libwave_plugin.dylib
+|    |              |_libx264_plugin.dylib
+|    |              |_libxa_plugin.dylib
+|    |              |_libxml_plugin.dylib
+|    |              |_libyuv_plugin.dylib
+|    |              |_libyuvp_plugin.dylib
+|    |              |_libyuy2_i420_plugin.dylib
+|    |              |_libyuy2_i422_plugin.dylib
+|    |              |_libzip_plugin.dylib
+|    |              |_libzvbi_plugin.dylib
+|    |              |_plugins.dat
+|    |_cup
+|    |    |_images
+|    |    |    |_BF_Ghost.png
+|    |    |    |_BF_Ghost.xml
+|    |    |    |_BG-00.png
+|    |    |    |_BG-01.png
+|    |    |    |_CUpheqdshid.png
+|    |    |    |_CUpheqdshid.xml
+|    |    |    |_Cardcrap.png
+|    |    |    |_Cardcrap.xml
+|    |    |    |_Foreground.png
+|    |    |    |_Grainshit.png
+|    |    |    |_Grainshit.xml
+|    |    |    |_NMClight.png
+|    |    |    |_NMClight.xml
+|    |    |    |_NewCupheadrunAnim.png
+|    |    |    |_NewCupheadrunAnim.xml
+|    |    |    |_angry
+|    |    |    |    |_CH-RN-00.png
+|    |    |    |    |_CH-RN-01.png
+|    |    |    |    |_CH-RN-02.png
+|    |    |    |    |_NewRAINLayer01.png
+|    |    |    |    |_NewRAINLayer01.xml
+|    |    |    |    |_NewRainLayer02.png
+|    |    |    |    |_NewRainLayer02.xml
+|    |    |    |_bull
+|    |    |    |    |_Cuphead Hadoken.png
+|    |    |    |    |_Cuphead Hadoken.xml
+|    |    |    |    |_Cupheadshoot.png
+|    |    |    |    |_Cupheadshoot.xml
+|    |    |    |    |_GreenShit.png
+|    |    |    |    |_GreenShit.xml
+|    |    |    |    |_NMcupheadAttacks.png
+|    |    |    |    |_NMcupheadAttacks.xml
+|    |    |    |    |_NMcupheadBull.png
+|    |    |    |    |_NMcupheadBull.xml
+|    |    |    |    |_Roundabout.png
+|    |    |    |    |_Roundabout.xml
+|    |    |    |_buttons.png
+|    |    |    |_buttons.xml
+|    |    |    |_cardempty.png
+|    |    |    |_cardfull.png
+|    |    |    |_cuphead_death.png
+|    |    |    |_cuphead_death2.png
+|    |    |    |_death.png
+|    |    |    |_devil_death.png
+|    |    |    |_knock.png
+|    |    |    |_knock.xml
+|    |    |    |_nightmarecupbg.png
+|    |    |    |_pause card.png
+|    |    |    |_pauseButtons.png
+|    |    |    |_pauseButtons.xml
+|    |    |    |_ready_wallop.png
+|    |    |    |_ready_wallop.xml
+|    |    |    |_somewhere in canada.png
+|    |    |    |_the_thing2.0.png
+|    |    |    |_the_thing2.0.xml
+|    |    |    |_vignette.png
+|    |    |_music
+|    |    |    |_fuck you.ogg
+|    |    |    |_pause.ogg
+|    |    |_sounds
+|    |         |_attacks
+|    |         |    |_chaser0.ogg
+|    |         |    |_chaser1.ogg
+|    |         |    |_chaser2.ogg
+|    |         |    |_chaser3.ogg
+|    |         |    |_chaser4.ogg
+|    |         |    |_pea0.ogg
+|    |         |    |_pea1.ogg
+|    |         |    |_pea2.ogg
+|    |         |    |_pea3.ogg
+|    |         |    |_pea4.ogg
+|    |         |    |_pea5.ogg
+|    |         |_boing.ogg
+|    |         |_death.ogg
+|    |         |_dodge.ogg
+|    |         |_fuckyoumoro.ogg
+|    |         |_hurt.ogg
+|    |         |_intros
+|    |         |    |_angry
+|    |         |    |    |_0.ogg
+|    |         |    |    |_1.ogg
+|    |         |    |_normal
+|    |         |         |_0.ogg
+|    |         |         |_1.ogg
+|    |         |         |_2.ogg
+|    |         |         |_3.ogg
+|    |         |         |_4.ogg
+|    |         |_knockout.ogg
+|    |         |_parry.ogg
+|    |         |_parry_old.ogg
+|    |         |_pre_shoot.ogg
+|    |         |_select.ogg
+|    |         |_shoot.ogg
+|    |         |_trolled.ogg
+|    |_fonts
+|    |    |_Bronx.otf
+|    |    |_Comic Sans MS.ttf
+|    |    |_Comic Sans [PIXEL].ttf
+|    |    |_DK Black Bamboo.ttf
+|    |    |_Papyrus Font [UNDETALE].ttf
+|    |    |_Papyrus [PIXEL].ttf
+|    |    |_Undertale.ttf
+|    |    |_charliebubblesimple.otf
+|    |    |_comic-sans-ut-font-rus-eng.ttf
+|    |    |_memphis.otf
+|    |    |_undertale-hud-font.ttf
+|    |    |_vcr.ttf
+|    |_hiddenContent
+|    |    |_data
+|    |    |    |_gose
+|    |    |    |    |_gose-hard.json
+|    |    |    |_gose-classic
+|    |    |    |    |_gose-classic-hard.json
+|    |    |    |_saness
+|    |    |         |_saness-hard.json
+|    |    |_images
+|    |    |    |_BG.png
+|    |    |    |_BG.xml
+|    |    |    |_FuckBoi.png
+|    |    |    |_FuckBoi.xml
+|    |    |    |_characters
+|    |    |    |    |_Animation.json
+|    |    |    |    |_Saness.png
+|    |    |    |    |_Saness.xml
+|    |    |    |    |_spritemap1.json
+|    |    |    |    |_spritemap1.png
+|    |    |    |_goose.png
+|    |    |    |_goose.xml
+|    |    |    |_goose_icons.png
+|    |    |    |_goose_icons.xml
+|    |    |_songs
+|    |         |_gose
+|    |         |    |_Inst.ogg
+|    |         |    |_Voices.ogg
+|    |         |_gose-classic
+|    |         |    |_Inst.ogg
+|    |         |    |_Voices.ogg
+|    |         |_llama-song
+|    |         |    |_Inst.ogg
+|    |         |_saness
+|    |              |_Inst.ogg
+|    |              |_Voices.ogg
+|    |_notes
+|    |    |_images
+|    |         |_AllnoteSplashes.png
+|    |         |_AllnoteSplashes.xml
+|    |         |_NOTE_NMassets.png
+|    |         |_NOTE_NMassets.xml
+|    |         |_NOTE_assets.png
+|    |         |_NOTE_assets.xml
+|    |         |_NOTE_bones.png
+|    |         |_NOTE_bones.xml
+|    |         |_NOTE_bounce.png
+|    |         |_NOTE_bounce.xml
+|    |         |_NOTE_cup.png
+|    |         |_NOTE_cup.xml
+|    |         |_NOTE_fire.png
+|    |         |_NOTE_fire.xml
+|    |         |_NOTE_flash.png
+|    |         |_NOTE_flash.xml
+|    |         |_NOTE_ink_notes2.png
+|    |         |_NOTE_ink_notes2.xml
+|    |         |_NOTE_nm_run_notes.png
+|    |         |_NOTE_nm_run_notes.xml
+|    |         |_NOTE_nmrunassets.png
+|    |         |_NOTE_nmrunassets.xml
+|    |         |_NOTE_nmrunink.png
+|    |         |_NOTE_nmrunink.xml
+|    |         |_NOTE_nmsin.png
+|    |         |_NOTE_nmsin.xml
+|    |         |_NOTE_parry.png
+|    |         |_NOTE_parry.xml
+|    |         |_NOTE_sin.png
+|    |         |_NOTE_sin.xml
+|    |         |_NOTE_sin_notes.png
+|    |         |_NOTE_sin_notes.xml
+|    |         |_NOTE_sin_notes_downscroll.png
+|    |         |_NOTE_sin_notes_downscroll.xml
+|    |         |_NightmareBlueNotes.png
+|    |         |_NightmareBlueNotes.xml
+|    |         |_NightmareOrangeNotes.png
+|    |         |_NightmareOrangeNotes.xml
+|    |         |_Parry_assets.png
+|    |         |_Parry_assets.xml
+|    |         |_sinSplashes.png
+|    |         |_sinSplashes.xml
+|    |_old
+|    |    |_CupheadTutorialSubState.hx
+|    |    |_Downloader.hx
+|    |    |_images
+|    |    |    |_BF LC shader.png
+|    |    |    |_BF LC shader.xml
+|    |    |    |_InkBend0
+|    |    |    |    |_Animation.json
+|    |    |    |    |_spritemap1.json
+|    |    |    |    |_spritemap1.png
+|    |    |    |_Jump.png
+|    |    |    |_Jump.xml
+|    |    |    |_LEGSS.png
+|    |    |    |_LEGSS.xml
+|    |    |    |_MUH_LEGS.png
+|    |    |    |_MUH_LEGS.xml
+|    |    |    |_MobileGame.png
+|    |    |    |_MobileGame.xml
+|    |    |    |_NewCuphead.png
+|    |    |    |_NewCuphead.xml
+|    |    |    |_REEEEEE.png
+|    |    |    |_REEEEEE.xml
+|    |    |    |_Sammy.png
+|    |    |    |_Sammy.xml
+|    |    |    |_UTextBox.png
+|    |    |    |_UTextBox.xml
+|    |    |    |_angrycuphead.png
+|    |    |    |_angrycuphead.xml
+|    |    |    |_attackdodge.png
+|    |    |    |_attackdodge.xml
+|    |    |    |_chara easter egg.png
+|    |    |    |_characters
+|    |    |    |    |_BF_LC_shader.png
+|    |    |    |    |_BF_LC_shader.xml
+|    |    |    |    |_BF_ded_Sans.png
+|    |    |    |    |_BF_ded_Sans.xml
+|    |    |    |    |_BFbutwearingsmthelse.png
+|    |    |    |    |_BFbutwearingsmthelse.xml
+|    |    |    |    |_BOYFRIEND_White.png
+|    |    |    |    |_BOYFRIEND_White.xml
+|    |    |    |    |_Bendy_phase_4.png
+|    |    |    |    |_Bendy_phase_4.xml
+|    |    |    |    |_DeathSans.png
+|    |    |    |    |_DeathSans.xml
+|    |    |    |    |_PapyrusfromFNF.png
+|    |    |    |    |_PapyrusfromFNF.xml
+|    |    |    |    |_SANS_FNF.png
+|    |    |    |    |_SANS_FNF.xml
+|    |    |    |    |_SANS_FNF_white.png
+|    |    |    |    |_SANS_FNF_white.xml
+|    |    |    |    |_Sans_Sleep_Brrrr.png
+|    |    |    |    |_Sans_Sleep_Brrrr.xml
+|    |    |    |    |_The_Devil
+|    |    |    |    |    |_Down.png
+|    |    |    |    |    |_Down.xml
+|    |    |    |    |    |_Idle.png
+|    |    |    |    |    |_Idle.xml
+|    |    |    |    |    |_Intro01.png
+|    |    |    |    |    |_Intro01.xml
+|    |    |    |    |    |_Intro02.png
+|    |    |    |    |    |_Intro02.xml
+|    |    |    |    |    |_Left.png
+|    |    |    |    |    |_Left.xml
+|    |    |    |    |    |_Right.png
+|    |    |    |    |    |_Right.xml
+|    |    |    |    |    |_Up.png
+|    |    |    |    |    |_Up.xml
+|    |    |    |    |_UT SANS.png
+|    |    |    |    |_UT SANS.xml
+|    |    |    |    |_cuphead.png
+|    |    |    |    |_cuphead.xml
+|    |    |    |    |_rainboyfriend.png
+|    |    |    |    |_rainboyfriend.xml
+|    |    |    |_eye.png
+|    |    |    |_gaster2.png
+|    |    |    |_gaster2.xml
+|    |    |    |_man behind the slaughter.png
+|    |    |_video stuff
+|    |         |_bink 1 reference.png
+|    |         |_bink 1 reference2.png
+|    |         |_bink.mp4
+|    |         |_intro.bk2
+|    |_preload
+|    |    |_data
+|    |    |    |_bad-time
+|    |    |    |    |_bad-time-hard.json
+|    |    |    |_bad-to-the-bone
+|    |    |    |    |_bad-to-the-bone-easy.json
+|    |    |    |    |_bad-to-the-bone-hard.json
+|    |    |    |    |_bad-to-the-bone.json
+|    |    |    |_bonedoggle
+|    |    |    |    |_bonedoggle-easy.json
+|    |    |    |    |_bonedoggle-hard.json
+|    |    |    |    |_bonedoggle.json
+|    |    |    |_burning-in-hell
+|    |    |    |    |_burning-in-hell-easy.json
+|    |    |    |    |_burning-in-hell-hard.json
+|    |    |    |    |_burning-in-hell.json
+|    |    |    |_despair
+|    |    |    |    |_despair-hard.json
+|    |    |    |_devils-gambit
+|    |    |    |    |_devils-gambit-hard.json
+|    |    |    |_final-stretch
+|    |    |    |    |_final-stretch-hard.json
+|    |    |    |_freaky-machine
+|    |    |    |    |_freaky-machine-easy.json
+|    |    |    |    |_freaky-machine-hard.json
+|    |    |    |    |_freaky-machine.json
+|    |    |    |_imminent-demise
+|    |    |    |    |_imminent-demise-easy.json
+|    |    |    |    |_imminent-demise-hard.json
+|    |    |    |    |_imminent-demise.json
+|    |    |    |_knockout
+|    |    |    |    |_knockout-easy.json
+|    |    |    |    |_knockout-hard.json
+|    |    |    |    |_knockout.json
+|    |    |    |_last-reel
+|    |    |    |    |_last-reel-easy.json
+|    |    |    |    |_last-reel-hard.json
+|    |    |    |    |_last-reel.json
+|    |    |    |_modchart.lua
+|    |    |    |_nightmare-run
+|    |    |    |    |_nightmare-run-hard.json
+|    |    |    |_ritual
+|    |    |    |    |_ritual-easy.json
+|    |    |    |    |_ritual-hard.json
+|    |    |    |    |_ritual.json
+|    |    |    |_sansational
+|    |    |    |    |_sansational-easy.json
+|    |    |    |    |_sansational-hard.json
+|    |    |    |    |_sansational.json
+|    |    |    |_satanic-funkin
+|    |    |    |    |_satanic-funkin-easy.json
+|    |    |    |    |_satanic-funkin-hard.json
+|    |    |    |    |_satanic-funkin.json
+|    |    |    |_snake-eyes
+|    |    |    |    |_snake-eyes-easy.json
+|    |    |    |    |_snake-eyes-hard.json
+|    |    |    |    |_snake-eyes.json
+|    |    |    |_technicolor-tussle
+|    |    |    |    |_technicolor-tussle-easy.json
+|    |    |    |    |_technicolor-tussle-hard.json
+|    |    |    |    |_technicolor-tussle.json
+|    |    |    |_terrible-sin
+|    |    |    |    |_terrible-sin-easy.json
+|    |    |    |    |_terrible-sin-hard.json
+|    |    |    |    |_terrible-sin.json
+|    |    |    |_whoopee
+|    |    |         |_whoopee-easy.json
+|    |    |         |_whoopee-hard.json
+|    |    |         |_whoopee.json
+|    |    |_images
+|    |    |    |_BendyIcon.png
+|    |    |    |_Cuphead_Remastered_Atlas
+|    |    |    |    |_Animation.json
+|    |    |    |    |_spritemap.json
+|    |    |    |    |_spritemap.png
+|    |    |    |_Loading_screen.png
+|    |    |    |_NewDevilIcon.png
+|    |    |    |_NewDevilIcon.xml
+|    |    |    |_NewIcons.png
+|    |    |    |_NewIcons.xml
+|    |    |    |_Pee.png
+|    |    |    |_Pee.xml
+|    |    |    |_SammyIcon.png
+|    |    |    |_SammyIcon.xml
+|    |    |    |_UISansIcon_assets.png
+|    |    |    |_UISansIcon_assets.xml
+|    |    |    |_UI_assets.png
+|    |    |    |_UI_assets.xml
+|    |    |    |_UTbros.png
+|    |    |    |_UTbros.xml
+|    |    |    |_alphabet.png
+|    |    |    |_alphabet.xml
+|    |    |    |_bendyalert.png
+|    |    |    |_credits
+|    |    |    |    |_Special_Thanks.png
+|    |    |    |    |_Special_Thanks.xml
+|    |    |    |    |_bg
+|    |    |    |    |    |_Artist_BG.png
+|    |    |    |    |    |_Charter_BG.png
+|    |    |    |    |    |_Coder_BG.png
+|    |    |    |    |    |_Leader_BG.png
+|    |    |    |    |    |_Music_BG.png
+|    |    |    |    |    |_quote_box.png
+|    |    |    |    |_icons
+|    |    |    |         |_Special thanks.png
+|    |    |    |         |_big_icons
+|    |    |    |         |    |_BLVKAROT.png
+|    |    |    |         |    |_Bbpanzu.png
+|    |    |    |         |    |_Brandxn.png
+|    |    |    |         |    |_Brightfyre.png
+|    |    |    |         |    |_CDmusic.png
+|    |    |    |         |    |_Cally3D.png
+|    |    |    |         |    |_Cerbera.png
+|    |    |    |         |    |_Crae.png
+|    |    |    |         |    |_CrystalSlime.png
+|    |    |    |         |    |_Cval.png
+|    |    |    |         |    |_DAGames.png
+|    |    |    |         |    |_DJ.png
+|    |    |    |         |    |_Diavololi.png
+|    |    |    |         |    |_Gedehari.png
+|    |    |    |         |    |_Hexar.png
+|    |    |    |         |    |_Iku Aldena.png
+|    |    |    |         |    |_Joan Atlas.png
+|    |    |    |         |    |_JzBoy.png
+|    |    |    |         |    |_KadeDev.png
+|    |    |    |         |    |_Kal.png
+|    |    |    |         |    |_Mike Geno.png
+|    |    |    |         |    |_Orenji.png
+|    |    |    |         |    |_Perez.png
+|    |    |    |         |    |_Proxy.png
+|    |    |    |         |    |_River.png
+|    |    |    |         |    |_Rozebud.png
+|    |    |    |         |    |_Saru.png
+|    |    |    |         |    |_Saster.png
+|    |    |    |         |    |_Sector.png
+|    |    |    |         |    |_Shadowfi.png
+|    |    |    |         |    |_Smokey.png
+|    |    |    |         |    |_Sugarratio.png
+|    |    |    |         |    |_Taeyai.png
+|    |    |    |         |    |_Tenzu.png
+|    |    |    |         |    |_TheInnuend0.png
+|    |    |    |         |    |_Yingyang.png
+|    |    |    |         |    |_isophoro.png
+|    |    |    |         |    |_moro.png
+|    |    |    |         |    |_nonsense.png
+|    |    |    |         |    |_volv.png
+|    |    |    |         |_selector.png
+|    |    |    |         |_small_icons
+|    |    |    |              |_BLVKAROT.png
+|    |    |    |              |_Bbpanzu.png
+|    |    |    |              |_Brandxn.png
+|    |    |    |              |_Brightfyre.png
+|    |    |    |              |_CDmusic.png
+|    |    |    |              |_Cally3D.png
+|    |    |    |              |_Cerbera.png
+|    |    |    |              |_Crae.png
+|    |    |    |              |_CrystalSlime.png
+|    |    |    |              |_Cval.png
+|    |    |    |              |_DAGames.png
+|    |    |    |              |_DJ.png
+|    |    |    |              |_Diavololi.png
+|    |    |    |              |_Gedehari.png
+|    |    |    |              |_Hexar.png
+|    |    |    |              |_Iku Aldena.png
+|    |    |    |              |_Joan Atlas.png
+|    |    |    |              |_JzBoy.png
+|    |    |    |              |_KadeDev.png
+|    |    |    |              |_Kal.png
+|    |    |    |              |_Mike Geno.png
+|    |    |    |              |_Orenji.png
+|    |    |    |              |_Perez.png
+|    |    |    |              |_Proxy.png
+|    |    |    |              |_River.png
+|    |    |    |              |_Rozebud.png
+|    |    |    |              |_Saru.png
+|    |    |    |              |_Saster.png
+|    |    |    |              |_Sector.png
+|    |    |    |              |_Shadowfi.png
+|    |    |    |              |_Smokey.png
+|    |    |    |              |_Sugarratio.png
+|    |    |    |              |_Taeyai.png
+|    |    |    |              |_Tenzu.png
+|    |    |    |              |_TheInnuend0.png
+|    |    |    |              |_Yingyang.png
+|    |    |    |              |_isophoro.png
+|    |    |    |              |_moro.png
+|    |    |    |              |_nonsense.png
+|    |    |    |              |_volv.png
+|    |    |    |_cupalert.png
+|    |    |    |_freeplayselect
+|    |    |    |    |_bonus.png
+|    |    |    |    |_locked.png
+|    |    |    |    |_nightmare.png
+|    |    |    |    |_story.png
+|    |    |    |_gamejolt
+|    |    |    |    |_BF.png
+|    |    |    |    |_BF.xml
+|    |    |    |    |_Background.png
+|    |    |    |    |_Button_shit.png
+|    |    |    |    |_Button_shit.xml
+|    |    |    |_healthbar
+|    |    |    |    |_bendyhealthbar.png
+|    |    |    |    |_cuphealthbar.png
+|    |    |    |    |_sans-hpnumbers.png
+|    |    |    |    |_sans-hpnumbers.xml
+|    |    |    |    |_sanshealthbar.png
+|    |    |    |    |_sanshealthbar1.png
+|    |    |    |    |_sanshealthbar2.png
+|    |    |    |    |_sanshealthbar3.png
+|    |    |    |_hi penkaru.txt
+|    |    |    |_iconGrid.png
+|    |    |    |_instructions
+|    |    |    |    |_Bendy-Phase2.png
+|    |    |    |    |_Bendy-Phase3.png
+|    |    |    |    |_Bendy-Phase4.png
+|    |    |    |    |_Cuphead.png
+|    |    |    |    |_Cuphead2.png
+|    |    |    |    |_Sans.png
+|    |    |    |    |_Tutorialanim.png
+|    |    |    |    |_Tutorialanim.xml
+|    |    |    |_menu
+|    |    |    |    |_BG.png
+|    |    |    |    |_BGwhite.png
+|    |    |    |    |_LOGO.png
+|    |    |    |    |_buttons
+|    |    |    |    |    |_achievements.png
+|    |    |    |    |    |_credits.png
+|    |    |    |    |    |_freeplay.png
+|    |    |    |    |    |_options.png
+|    |    |    |    |    |_storymode.png
+|    |    |    |    |_log
+|    |    |    |    |    |_btt_no.png
+|    |    |    |    |    |_btt_yes.png
+|    |    |    |    |    |_button.png
+|    |    |    |    |    |_prompt.png
+|    |    |    |    |_sketch.png
+|    |    |    |_musicBar.png
+|    |    |    |_nm
+|    |    |    |    |_0.png
+|    |    |    |    |_1.png
+|    |    |    |    |_2.png
+|    |    |    |    |_3.png
+|    |    |    |_num0.png
+|    |    |    |_num1.png
+|    |    |    |_num2.png
+|    |    |    |_num3.png
+|    |    |    |_num4.png
+|    |    |    |_num5.png
+|    |    |    |_num6.png
+|    |    |    |_num7.png
+|    |    |    |_num8.png
+|    |    |    |_num9.png
+|    |    |    |_old nm alerts
+|    |    |    |    |_cupalert.png
+|    |    |    |    |_sansalert.png
+|    |    |    |_sansalert.png
+|    |    |    |_story mode
+|    |    |    |    |_BG.png
+|    |    |    |    |_Bendy_Gaming.png
+|    |    |    |    |_Bendy_Gaming.xml
+|    |    |    |    |_Cuphead_Gaming.png
+|    |    |    |    |_Cuphead_Gaming.xml
+|    |    |    |    |_Difficulties.png
+|    |    |    |    |_Difficulties.xml
+|    |    |    |    |_Left-Panel_above BGs.png
+|    |    |    |    |_SansStorymodeMenu.png
+|    |    |    |    |_SansStorymodeMenu.xml
+|    |    |    |    |_Score_bottom panel.png
+|    |    |    |    |_Storymode.png
+|    |    |    |    |_Weeks
+|    |    |    |         |_Locked Week.png
+|    |    |    |         |_Locked Week_selected.png
+|    |    |    |         |_Week1.png
+|    |    |    |         |_Week1_selected.png
+|    |    |    |         |_Week2.png
+|    |    |    |         |_Week2_selected.png
+|    |    |    |         |_Week3.png
+|    |    |    |         |_Week3_selected.png
+|    |    |    |_title
+|    |    |         |_BF.png
+|    |    |         |_BF.xml
+|    |    |         |_BendyCircle.png
+|    |    |         |_Bg.png
+|    |    |         |_Bg.xml
+|    |    |         |_CupCircle.png
+|    |    |         |_Logo.png
+|    |    |         |_Logo.xml
+|    |    |         |_PlayText.png
+|    |    |         |_Playbutton.png
+|    |    |         |_Playbutton.xml
+|    |    |         |_SansCircle.png
+|    |    |_music
+|    |    |    |_freakyMenu.ogg
+|    |    |    |_settin.ogg
+|    |    |_sounds
+|    |         |_achievement.ogg
+|    |         |_burnSound.ogg
+|    |         |_cancelMenu.ogg
+|    |         |_confirmMenu.ogg
+|    |         |_delete.ogg
+|    |         |_scrollMenu.ogg
+|    |         |_sounddown.ogg
+|    |         |_soundup.ogg
+|    |         |_titleShoot.ogg
+|    |         |_type.ogg
+|    |_sans
+|    |    |_images
+|    |    |    |_Cardodge.png
+|    |    |    |_Cardodge.xml
+|    |    |    |_DodgeMechs.png
+|    |    |    |_DodgeMechs.xml
+|    |    |    |_DodgeMechsBS-Shader.png
+|    |    |    |_DodgeMechsBS-Shader.xml
+|    |    |    |_Gaster_blasterss.png
+|    |    |    |_Gaster_blasterss.xml
+|    |    |    |_Nightmare Sans Stage.png
+|    |    |    |_Nightmare Sans Stage.xml
+|    |    |    |_Sans_Shit_NM.png
+|    |    |    |_Sans_Shit_NM.xml
+|    |    |    |_Sans_Text_box.png
+|    |    |    |_Sans_Text_box.xml
+|    |    |    |_Soul_ded.png
+|    |    |    |_Soul_ded.xml
+|    |    |    |_Waterfall.png
+|    |    |    |_battleUI
+|    |    |    |    |_battle.png
+|    |    |    |    |_bg.png
+|    |    |    |_gameover.png
+|    |    |    |_hall.png
+|    |    |    |_halldark.png
+|    |    |    |_heart.png
+|    |    |    |_sands.png
+|    |    |    |_unknown.png
+|    |    |_music
+|    |    |    |_fuck you.ogg
+|    |    |    |_gameovernormal.ogg
+|    |    |    |_pause.ogg
+|    |    |_sounds
+|    |         |_Throw1.ogg
+|    |         |_Throw2.ogg
+|    |         |_Throw3.ogg
+|    |         |_countdown finish.ogg
+|    |         |_countdown.ogg
+|    |         |_dodge.ogg
+|    |         |_eye.ogg
+|    |         |_genocide.ogg
+|    |         |_hurt.ogg
+|    |         |_move.ogg
+|    |         |_notice.ogg
+|    |         |_ping.ogg
+|    |         |_readygas.ogg
+|    |         |_rimshot.ogg
+|    |         |_sansattack.ogg
+|    |         |_select.ogg
+|    |         |_shootgas.ogg
+|    |         |_snd_txtpap.ogg
+|    |         |_snd_txtsans.ogg
+|    |         |_trolled.ogg
+|    |         |_utDie.ogg
+|    |_shared
+|    |    |_images
+|    |    |    |_Notmobilegameanymore.png
+|    |    |    |_Notmobilegameanymore.xml
+|    |    |    |_Warning.png
+|    |    |    |_Warning.xml
+|    |    |    |_bad.png
+|    |    |    |_bonusSongs
+|    |    |    |    |_BlackScreen.png
+|    |    |    |    |_Curtain1.png
+|    |    |    |    |_Curtain2.png
+|    |    |    |    |_Fisher.png
+|    |    |    |    |_Fisher.xml
+|    |    |    |    |_J-BugWatermark.png
+|    |    |    |    |_NightmareJumpscares01.png
+|    |    |    |    |_NightmareJumpscares01.xml
+|    |    |    |    |_NightmareJumpscares02.png
+|    |    |    |    |_NightmareJumpscares02.xml
+|    |    |    |    |_NightmareJumpscares03.png
+|    |    |    |    |_NightmareJumpscares03.xml
+|    |    |    |    |_Papyrus_BG.png
+|    |    |    |    |_That Annoying Bitch.png
+|    |    |    |    |_That Annoying Bitch.xml
+|    |    |    |    |_dabg.png
+|    |    |    |    |_devil.png
+|    |    |    |    |_static.png
+|    |    |    |    |_static.xml
+|    |    |    |_characters
+|    |    |    |    |_BF-BS-shader.png
+|    |    |    |    |_BF-BS-shader.xml
+|    |    |    |    |_BF_FINAL.png
+|    |    |    |    |_BF_FINAL.xml
+|    |    |    |    |_BOYFRIEND.png
+|    |    |    |    |_BOYFRIEND.xml
+|    |    |    |    |_BendyDAgames.png
+|    |    |    |    |_BendyDAgames.xml
+|    |    |    |    |_Bendy_remastered.png
+|    |    |    |    |_Bendy_remastered.xml
+|    |    |    |    |_Bendy_run_Remastered.png
+|    |    |    |    |_Bendy_run_Remastered.xml
+|    |    |    |    |_BoyFriend_3rdPhase.png
+|    |    |    |    |_BoyFriend_3rdPhase.xml
+|    |    |    |    |_BoyFriend_Assets_CHRISTMAS_VARIANT.png
+|    |    |    |    |_BoyFriend_Assets_CHRISTMAS_VARIANT.xml
+|    |    |    |    |_BoyFriend_BendyShade.png
+|    |    |    |    |_BoyFriend_BendyShade.xml
+|    |    |    |    |_BoyFriend_CRshader.png
+|    |    |    |    |_BoyFriend_CRshader.xml
+|    |    |    |    |_BoyFriend_Cuphead.png
+|    |    |    |    |_BoyFriend_Cuphead.xml
+|    |    |    |    |_BoyFriend_DA.png
+|    |    |    |    |_BoyFriend_DA.xml
+|    |    |    |    |_BoyFriend_NM.png
+|    |    |    |    |_BoyFriend_NM.xml
+|    |    |    |    |_BoyFriend_NM_Bendy.png
+|    |    |    |    |_BoyFriend_NM_Bendy.xml
+|    |    |    |    |_BoyFriend_Rain.png
+|    |    |    |    |_BoyFriend_Rain.xml
+|    |    |    |    |_BoyFriend_Sammy.png
+|    |    |    |    |_BoyFriend_Sammy.xml
+|    |    |    |    |_BoyFriend_SansWT.png
+|    |    |    |    |_BoyFriend_SansWT.xml
+|    |    |    |    |_Chara.png
+|    |    |    |    |_Chara.xml
+|    |    |    |    |_CharaUT.png
+|    |    |    |    |_CharaUT.xml
+|    |    |    |    |_Cuphead Pissed.png
+|    |    |    |    |_Cuphead Pissed.xml
+|    |    |    |    |_Cuphead_Remastered.png
+|    |    |    |    |_Cuphead_Remastered.xml
+|    |    |    |    |_DADDY_DEAREST.png
+|    |    |    |    |_DADDY_DEAREST.xml
+|    |    |    |    |_DeathSans002.png
+|    |    |    |    |_DeathSans002.xml
+|    |    |    |    |_Devil.png
+|    |    |    |    |_Devil.xml
+|    |    |    |    |_Devil_Intro.png
+|    |    |    |    |_Devil_Intro.xml
+|    |    |    |    |_Mugman Fucking dies.png
+|    |    |    |    |_Mugman Fucking dies.xml
+|    |    |    |    |_NMB.png
+|    |    |    |    |_NMB.xml
+|    |    |    |    |_NM_run_BF.png
+|    |    |    |    |_NM_run_BF.xml
+|    |    |    |    |_Nightmare_Cuphead.png
+|    |    |    |    |_Nightmare_Cuphead.xml
+|    |    |    |    |_Papyrus.png
+|    |    |    |    |_Papyrus.xml
+|    |    |    |    |_SammyRemastered.png
+|    |    |    |    |_SammyRemastered.xml
+|    |    |    |    |_Sans.png
+|    |    |    |    |_Sans.xml
+|    |    |    |    |_SansWF.png
+|    |    |    |    |_SansWF.xml
+|    |    |    |    |_Sans_Brrrr.png
+|    |    |    |    |_Sans_Brrrr.xml
+|    |    |    |    |_Sans_Phase_3.png
+|    |    |    |    |_Sans_Phase_3.xml
+|    |    |    |    |_Sans_but_Rip_colors.png
+|    |    |    |    |_Sans_but_Rip_colors.xml
+|    |    |    |    |_Screenshot 2022-03-26 223927.png
+|    |    |    |    |_UT BF.png
+|    |    |    |    |_UT BF.xml
+|    |    |    |    |_dark
+|    |    |    |    |    |_Bendy_run_Remastered.png
+|    |    |    |    |    |_Bendy_run_Remastered.xml
+|    |    |    |    |    |_NM-run-BF-Dark.png
+|    |    |    |    |    |_NM-run-BF-Dark.xml
+|    |    |    |    |_somewhere in canada pt 2.png
+|    |    |    |_gay.png
+|    |    |    |_gay.xml
+|    |    |    |_go.png
+|    |    |    |_good.png
+|    |    |    |_healthBar.png
+|    |    |    |_mozo.png
+|    |    |    |_mozo.xml
+|    |    |    |_ready.png
+|    |    |    |_set.png
+|    |    |    |_shit.png
+|    |    |    |_sick.png
+|    |    |    |_stage_light.png
+|    |    |    |_stageback.png
+|    |    |    |_stagecurtains.png
+|    |    |    |_stagefront.png
+|    |    |    |_undertaleActions1.png
+|    |    |    |_undertaleActions2.png
+|    |    |_music
+|    |    |    |_GameOverSans.ogg
+|    |    |    |_GameOverSansEnd.ogg
+|    |    |    |_breakfast.ogg
+|    |    |    |_gameOver.ogg
+|    |    |    |_gameOverEnd.ogg
+|    |    |_sounds
+|    |         |_Lights_Turn_Off.ogg
+|    |         |_Lights_Turn_On.ogg
+|    |         |_SNAP.ogg
+|    |         |_deathlines
+|    |         |    |_normal
+|    |         |    |    |_1.ogg
+|    |         |    |    |_10.ogg
+|    |         |    |    |_11.ogg
+|    |         |    |    |_12.ogg
+|    |         |    |    |_13.ogg
+|    |         |    |    |_14.ogg
+|    |         |    |    |_15.ogg
+|    |         |    |    |_16.ogg
+|    |         |    |    |_2.ogg
+|    |         |    |    |_3.ogg
+|    |         |    |    |_4.ogg
+|    |         |    |    |_5.ogg
+|    |         |    |    |_6.ogg
+|    |         |    |    |_7.ogg
+|    |         |    |    |_8.ogg
+|    |         |    |    |_9.ogg
+|    |         |    |_skip
+|    |         |    |    |_1.ogg
+|    |         |    |    |_2.ogg
+|    |         |    |    |_3.ogg
+|    |         |    |_streamer
+|    |         |         |_1.ogg
+|    |         |         |_2.ogg
+|    |         |         |_3.ogg
+|    |         |_fnf_loss_sfx.ogg
+|    |         |_hitsounds.ogg
+|    |         |_intro1.ogg
+|    |         |_intro2.ogg
+|    |         |_intro3.ogg
+|    |         |_introGo.ogg
+|    |         |_sammyAxeGround.ogg
+|    |         |_sammyAxeThrow.ogg
+|    |         |_scare_bendy.ogg
+|    |         |_scare_cuphead.ogg
+|    |         |_scare_sans.ogg
+|    |         |_soundTest.ogg
+|    |         |_sounds-go-here.txt
+|    |         |_thunder_1.ogg
+|    |         |_thunder_2.ogg
+|    |         |_weekDeny.ogg
+|    |_songs
+|    |    |_bad-time
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |    |_bad.wav
+|    |    |_bad-to-the-bone
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_bonedoggle
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_burning-in-hell
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_despair
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_devils-gambit
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_final-stretch
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_freaky-machine
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_imminent-demise
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_knockout
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_last-reel
+|    |    |    |_Inst-easy.ogg
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices-easy.ogg
+|    |    |    |_Voices.ogg
+|    |    |_nightmare-run
+|    |    |    |_8DC0ECE9-1ECF-449E-BD64-3999AE72977E.png
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_ritual
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_sansational
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_satanic-funkin
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_snake-eyes
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_technicolor-tussle
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_terrible-sin
+|    |    |    |_Inst.ogg
+|    |    |    |_Voices.ogg
+|    |    |_whoopee
+|    |         |_Inst.ogg
+|    |         |_Voices.ogg
+|    |_videos
+|         |_bendy
+|         |    |_1.5.mp4
+|         |    |_1.mp4
+|         |    |_2.mp4
+|         |    |_3.mp4
+|         |    |_4.mp4
+|         |    |_4ez.mp4
+|         |    |_5.mp4
+|         |    |_bgscene.mp4
+|         |    |_bgscenephotosensitive.mp4
+|         |_credits.mp4
+|         |_cuphead
+|         |    |_1.mp4
+|         |    |_2.mp4
+|         |    |_3.mp4
+|         |    |_4.mp4
+|         |    |_cup.mp4
+|         |    |_the devil.mp4
+|         |_gose.mp4
+|         |_intro.mp4
+|         |_sans
+|              |_1.mp4
+|              |_2.mp4
+|              |_3.mp4
+|              |_3b.mp4
+|              |_4.mp4
+|              |_4b.mp4
+|_crash-dialog
+|    |_assets
+|    |    |_banner.png
+|    |    |_main-view.xml
+|    |_hxformat.json
+|    |_hxwidgets-linux.hxml
+|    |_hxwidgets-windows.hxml
+|    |_src
+|         |_Main.hx
+|         |_haxeui-hxwidgets.properties
+|         |_module.xml
+|_do NOT readme.txt
+|_favicon.ico
+|_flixel
+|    |_flixel-ui
+|    |    |_img
+|    |    |    |_box.png
+|    |    |    |_button.png
+|    |    |    |_button_arrow_down.png
+|    |    |    |_button_arrow_left.png
+|    |    |    |_button_arrow_right.png
+|    |    |    |_button_arrow_up.png
+|    |    |    |_button_thin.png
+|    |    |    |_button_toggle.png
+|    |    |    |_check_box.png
+|    |    |    |_check_mark.png
+|    |    |    |_chrome.png
+|    |    |    |_chrome_flat.png
+|    |    |    |_chrome_inset.png
+|    |    |    |_chrome_light.png
+|    |    |    |_dropdown_mark.png
+|    |    |    |_finger_big.png
+|    |    |    |_finger_small.png
+|    |    |    |_hilight.png
+|    |    |    |_invis.png
+|    |    |    |_minus_mark.png
+|    |    |    |_plus_mark.png
+|    |    |    |_radio.png
+|    |    |    |_radio_dot.png
+|    |    |    |_swatch.png
+|    |    |    |_tab.png
+|    |    |    |_tab_back.png
+|    |    |    |_tooltip_arrow.png
+|    |    |_xml
+|    |         |_default_loading_screen.xml
+|    |         |_default_popup.xml
+|    |         |_defaults.xml
+|    |_fonts
+|    |    |_monsterrat.eot
+|    |    |_monsterrat.svg
+|    |    |_monsterrat.ttf
+|    |    |_monsterrat.woff
+|    |    |_nokiafc22.eot
+|    |    |_nokiafc22.svg
+|    |    |_nokiafc22.ttf
+|    |    |_nokiafc22.woff
+|    |_images
+|    |    |_logo
+|    |    |    |_default.png
+|    |    |_ui
+|    |         |_button.png
+|    |_sounds
+|         |_beep.mp3
+|         |_beep.ogg
+|         |_flixel.mp3
+|         |_flixel.ogg
+|_index.html
+|_manifest
+|    |_default.json
+|    |_shared.json
+|    |_songs.json
+|    |_videos.json
+|_treelist.sh
